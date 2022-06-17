@@ -1,0 +1,13 @@
+p{
+    text-align: center;
+    font-size: 45px;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 900px;
+}
