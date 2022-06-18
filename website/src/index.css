@@ -1,5 +1,11 @@
 body{
-    background: url(/public/image/mentalhealthimage.png);
+    background: #e1d4b7;
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "Aeonik";
+    src: local("Aeonik"),
+     url("./fonts/Aeonik/Aeonik-Regular.otf") format("truetype");
 }

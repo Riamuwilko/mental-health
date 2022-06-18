@@ -8,7 +8,6 @@ import Button from '@mui/material/Button';
 import EnergySavingsLeafIcon from '@mui/icons-material/EnergySavingsLeaf';
 import {useNavigate} from 'react-router-dom';
 
-const pages = ['About', 'Learn', 'Resources'];
 
 const ResponsiveAppBar = () => {
   const navigate = useNavigate();
@@ -30,7 +29,7 @@ const ResponsiveAppBar = () => {
               fontWeight: 700,
               fontSize: 30,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'white',
               textDecoration: 'none',
             }}
           >
@@ -39,20 +38,20 @@ const ResponsiveAppBar = () => {
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end'} }}>
             <Button
-                onClick={() => navigate("/about")}
-                sx={{ my: 2, color: '#68a9b0', display: 'block', fontSize: 20, fontWeight: 700 }}
+                onClick={() => navigate("/mission")}
+                sx={{ my: 2, color: 'white', display: 'block', fontSize: 20, fontWeight: 700 }}
               >
-                About
+                Mission
               </Button>
               <Button
                 onClick={() => navigate("/learn")}
-                sx={{ my: 2, color: '#68a9b0', display: 'block', fontSize: 20, fontWeight: 700 }}
+                sx={{ my: 2, color: 'white', display: 'block', fontSize: 20, fontWeight: 700 }}
               >
                 Learn
               </Button>
               <Button
                 onClick={() => navigate("/resources")}
-                sx={{ my: 2, color: '#68a9b0', display: 'block', fontSize: 20, fontWeight: 700 }}
+                sx={{ my: 2, color: 'white', display: 'block', fontSize: 20, fontWeight: 700 }}
               >
                 Resources
               </Button>
