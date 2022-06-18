@@ -40,7 +40,7 @@ const Home = () => {
                     <br></br>
                     <Card elevation={0}>
                         <CardContent style={{background: "#e1d4b7" }}>
-                            <Typography fontFamily="Brush Script MT, Brush Script Std, cursive" fontSize={36} style={{textAlign: "center"}}>
+                            <Typography fontFamily="Brush Script MT, Brush Script Std, cursive" fontSize={40} style={{textAlign: "center"}}>
                                 "I hope you realize that every day
                                 is a fresh start for you. That every
                                 sunrise is a new chapter in your
