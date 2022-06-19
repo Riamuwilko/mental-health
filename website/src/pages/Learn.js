@@ -5,6 +5,11 @@ import Grid from '@mui/material/Grid';
 import CardMedia from '@mui/material/CardMedia';
 
 const Learn = () => {
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+    }
+
     return (
         <div style={{position: "relative", top: "100px", paddingBottom: "200px", marginLeft: "10%", marginRight: "10%"}}>
              <Typography fontFamily="Aeonik" fontSize={40} style={{textAlign: "center"}}>
@@ -31,6 +36,7 @@ const Learn = () => {
                 <Grid item xs={3} style={{display: "flex", justifyContent: "center" }}>
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
+                            onClick={() => openInNewTab("https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/anxiety-disorders")}
                             component="img"
                             image="/image/anxiety.png"
                             alt="sun"
@@ -49,6 +55,7 @@ const Learn = () => {
                 <Grid item xs={3} style={{display: "flex", justifyContent: "center" }}>
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
+                            onClick={() => openInNewTab("https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bipolar-disorder")}
                             component="img"
                             image="/image/bipolar.png"
                             alt="sun"
@@ -67,6 +74,7 @@ const Learn = () => {
                 <Grid item xs={3} style={{display: "flex", justifyContent: "center" }}>
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
+                            onClick={() => openInNewTab("https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/depression")}
                             component="img"
                             image="/image/depression.png"
                             alt="sun"
@@ -85,6 +93,7 @@ const Learn = () => {
                 <Grid item xs={3} style={{display: "flex", justifyContent: "center" }}>
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
+                            onClick={() => openInNewTab("https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/dissociation-and-dissociative-disorders")}
                             component="img"
                             image="/image/disso.png"
                             alt="sun"
@@ -103,6 +112,7 @@ const Learn = () => {
                 <Grid item xs={3} style={{display: "flex", justifyContent: "center" }}>
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
+                            onClick={() => openInNewTab("https://www.betterhealth.vic.gov.au/health/healthyliving/eating-disorders")}
                             component="img"
                             image="/image/eat.png"
                             alt="sun"
@@ -122,6 +132,7 @@ const Learn = () => {
                 <Grid item xs={3} style={{display: "flex", justifyContent: "center" }}>
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
+                            onClick={() => openInNewTab("https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/obsessive-compulsive-disorder")}
                             component="img"
                             image="/image/ocd.png"
                             alt="sun"
@@ -140,6 +151,7 @@ const Learn = () => {
                 <Grid item xs={3} style={{display: "flex", justifyContent: "center" }}>
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
+                            onClick={() => openInNewTab("https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/paranoia")}
                             component="img"
                             image="/image/omen.png"
                             alt="sun"
@@ -158,6 +170,7 @@ const Learn = () => {
                 <Grid item xs={3} style={{display: "flex", justifyContent: "center" }}>
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
+                            onClick={() => openInNewTab("https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/schizophrenia")}
                             component="img"
                             image="/image/schiz.png"
                             alt="sun"
