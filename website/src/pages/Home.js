@@ -33,7 +33,7 @@ const Home = () => {
                     <Card sx={{ maxWidth: 1475, maxHeight:595 }}>
                         <CardMedia
                         component="img"
-                        image="/image/mentalhealthimage.png"
+                        image="/image/mentalhealth.png"
                         alt="sun"
                         />
                     </Card>
