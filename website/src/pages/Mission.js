@@ -3,9 +3,16 @@ import {CardContent, Typography} from '@mui/material';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 const Mission = () => {
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+    }
+
     return (
         <div style={{position: "relative", top: "100px", paddingBottom: "200px"}}>
            <Typography fontFamily="Aeonik" fontSize={20} style={{textAlign: "center"}}>
@@ -41,7 +48,7 @@ const Mission = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} style={{display: "flex", justifyContent: "center" }}>
-                    <Typography fontFamily="Aeonik" fontSize={30} style={{textAlign: "center"}}>
+                    <Typography fontFamily="Aeonik" fontSize={30} style={{textAlign: "center", color: "#003153"}}>
                         Meet the team
                     </Typography>
                 </Grid>
@@ -49,14 +56,20 @@ const Mission = () => {
                     <Card sx={{ width: 350, height: 400 }}>
                         <CardMedia
                             component="img"
-                            image="/image/sun.png"
+                            image="/image/willprof.png"
                             alt="sun"
                             sx={{ width: 350, height: 300 }}
                         />
                         <CardContent>
-                            <Typography>
-                                dsfdfasd
+                            <Typography fontFamily="Aeonik" fontSize={20} color= "#003153">
+                                William Kong
                             </Typography>
+                            <div style={{display: "flex", flexWrap: 'wrap'}}>
+                                <LinkedInIcon onClick={() => openInNewTab("https://www.linkedin.com/in/william-kong-8094ab1b5/")}
+                                sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, fontSize: 50, color: "#0474b4"}} />
+                                <GitHubIcon onClick={() => openInNewTab("https://github.com/Riamuwilko")}
+                                sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, fontSize: 50}} />
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>
@@ -64,14 +77,20 @@ const Mission = () => {
                     <Card sx={{ width: 350, height: 400 }}>
                         <CardMedia
                             component="img"
-                            image="/image/sun.png"
+                            image="/image/dlinprof.png"
                             alt="sun"
                             sx={{ width: 350, height: 300 }}
                         />
                         <CardContent>
-                            <Typography>
-                                dsfdfasd
+                            <Typography fontFamily="Aeonik" fontSize={20} color= "#003153">
+                                Darren Lin
                             </Typography>
+                            <div style={{display: "flex", flexWrap: 'wrap'}}>
+                                <LinkedInIcon onClick={() => openInNewTab("https://www.linkedin.com/in/darren-lin-430a121b0/")}
+                                sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, fontSize: 50, color: "#0474b4"}} />
+                                <GitHubIcon onClick={() => openInNewTab("https://github.com/Deltafox137")}
+                                sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, fontSize: 50}} />
+                            </div>
                         </CardContent>
                     </Card>
                 </Grid>

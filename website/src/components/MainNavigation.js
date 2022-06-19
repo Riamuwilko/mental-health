@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import EnergySavingsLeafIcon from '@mui/icons-material/EnergySavingsLeaf';
+import LightModeIcon from '@mui/icons-material/LightMode';
 import {useNavigate} from 'react-router-dom';
 
 
@@ -16,7 +16,7 @@ const ResponsiveAppBar = () => {
     <AppBar position="fixed" style={{ background: '#fdae0c', top: 0}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <EnergySavingsLeafIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, fontSize: 30 }} />
+          <LightModeIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, fontSize: 30 }} />
           <Typography
             variant="h6"
             noWrap

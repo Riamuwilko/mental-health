@@ -32,13 +32,15 @@ const Learn = () => {
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
                             component="img"
-                            image="/image/sun.png"
+                            image="/image/anxiety.png"
                             alt="sun"
                             sx={{ width: 300, height: 250 }}
                         />
                         <CardContent>
+                            <Typography fontFamily="Aeonik" color="#003153" fontSize={18}>
+                                Anxiety Disorders
+                            </Typography>
                             <Typography fontFamily="Aeonik" fontSize={16} >
-                                Anxiety Disorders<br></br>
                                 Characterized by feelings of worry, anxiety, or fear that are strong enough to interfere with one's daily activities
                             </Typography>
                         </CardContent>
@@ -48,13 +50,15 @@ const Learn = () => {
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
                             component="img"
-                            image="/image/sun.png"
+                            image="/image/bipolar.png"
                             alt="sun"
                             sx={{ width: 300, height: 250 }}
                         />
                         <CardContent>
+                            <Typography fontFamily="Aeonik" color="#003153" fontSize={18}>
+                                Bipolar Disorders
+                            </Typography>
                             <Typography fontFamily="Aeonik" fontSize={16} >
-                                Bipolar Disorder<br></br>
                                 Associated with episodes of mood swings ranging from depressive lows to manic highs.
                             </Typography>
                         </CardContent>
@@ -64,13 +68,15 @@ const Learn = () => {
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
                             component="img"
-                            image="/image/sun.png"
+                            image="/image/depression.png"
                             alt="sun"
                             sx={{ width: 300, height: 250 }}
                         />
                         <CardContent>
+                            <Typography fontFamily="Aeonik" color="#003153" fontSize={18}>
+                                Depression
+                            </Typography>
                             <Typography fontFamily="Aeonik" fontSize={16} >
-                                Depression<br></br>
                                 Characterized by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life.
                             </Typography>
                         </CardContent>
@@ -80,13 +86,15 @@ const Learn = () => {
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
                             component="img"
-                            image="/image/sun.png"
+                            image="/image/disso.png"
                             alt="sun"
                             sx={{ width: 300, height: 250 }}
                         />
                         <CardContent>
+                            <Typography fontFamily="Aeonik" color="#003153" fontSize={18}>
+                                Dissociation and Dissociative Disorders
+                            </Typography>
                             <Typography fontFamily="Aeonik" fontSize={16} >
-                                Dissociation and dissociative disorders<br></br>
                                 Involve experiencing lack of continuity between thoughts, memories, actions and identity
                             </Typography>
                         </CardContent>
@@ -96,11 +104,14 @@ const Learn = () => {
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
                             component="img"
-                            image="/image/sun.png"
+                            image="/image/eat.png"
                             alt="sun"
                             sx={{ width: 300, height: 250 }}
                         />
                         <CardContent>
+                            <Typography fontFamily="Aeonik" color="#003153" fontSize={18}>
+                                Eating Disorders
+                            </Typography>
                             <Typography fontFamily="Aeonik" fontSize={16} >
                                 Eating disorders<br></br>
                                 Characterized by abnormal or disturbed eating habits (such as anorexia nervosa).
@@ -112,13 +123,15 @@ const Learn = () => {
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
                             component="img"
-                            image="/image/sun.png"
+                            image="/image/ocd.png"
                             alt="sun"
                             sx={{ width: 300, height: 250 }}
                         />
                         <CardContent>
+                            <Typography fontFamily="Aeonik" color="#003153" fontSize={18}>
+                                Obsessive Compulsive Disorders
+                            </Typography>
                             <Typography fontFamily="Aeonik" fontSize={16} >
-                                Obsessive compulsive disorder<br></br>
                                 Characterized by unreasonable thoughts and fears (obsessions) that lead to compulsive behaviors.
                             </Typography>
                         </CardContent>
@@ -128,13 +141,15 @@ const Learn = () => {
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
                             component="img"
-                            image="/image/sun.png"
+                            image="/image/omen.png"
                             alt="sun"
                             sx={{ width: 300, height: 250 }}
                         />
                         <CardContent>
+                            <Typography fontFamily="Aeonik" color="#003153" fontSize={18}>
+                                Paranoia
+                            </Typography>
                             <Typography fontFamily="Aeonik" fontSize={16} >
-                                Paranoia<br></br>
                                 An unrealistic distrust of others or a feeling of being persecuted.
                             </Typography>
                         </CardContent>
@@ -144,13 +159,15 @@ const Learn = () => {
                     <Card elevation={0} sx={{width: 300, height:400 }}>
                         <CardMedia
                             component="img"
-                            image="/image/sun.png"
+                            image="/image/schiz.png"
                             alt="sun"
                             sx={{ width: 300, height: 250 }}
                         />
                         <CardContent>
+                            <Typography fontFamily="Aeonik" color="#003153" fontSize={18}>
+                                Schizophrenia
+                            </Typography>
                             <Typography fontFamily="Aeonik" fontSize={16} >
-                                Schizophrenia<br></br>
                                 Characterized by thoughts or experiences that seem out of touch with reality
                             </Typography>
                         </CardContent>
